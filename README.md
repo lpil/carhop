@@ -21,3 +21,7 @@ bundle exec guard
 # Run the linter
 bundle exec guard
 ```
+
+## Notes
+
+http://guides.rubygems.org/patterns/
