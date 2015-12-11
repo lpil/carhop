@@ -1,0 +1,15 @@
+language: ruby
+
+rvm:
+  - 2.2.0
+  - 2.2.1
+  - 2.2.2
+
+script:
+  - bundle exec rspec --color
+  - bundle exec rubocop
+
+sudo: false # faster builds
+
+notifications:
+  email: false
