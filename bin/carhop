@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/carhop'
+
+Carhop.run
+
+# vim: set ft=ruby
